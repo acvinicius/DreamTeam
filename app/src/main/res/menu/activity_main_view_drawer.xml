@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group  android:checkableBehavior="single">
+        <item android:title="@string/teams">
+            <menu>
+                <item
+                    android:id="@+id/nav_reg_team"
+                    android:icon="@mipmap/tshirt"
+                    android:title="@string/register_team"
+                    />
+                <!--<item-->
+                    <!--android:id="@+id/nav_alter_team"-->
+                    <!--android:icon="@drawable/ic_menu_camera"-->
+                    <!--android:title="@string/change_team" />-->
+            </menu>
+        </item>
+        <item android:title="@string/my_players">
+            <menu>
+                <item
+                    android:id="@+id/nav_reg_player"
+                    android:icon="@mipmap/playerkickball"
+                    android:title="@string/register_player" />
+                <!--<item-->
+                    <!--android:id="@+id/nav_alter_player"-->
+                    <!--android:icon="@drawable/ic_menu_gallery"-->
+                    <!--android:title="@string/change_player" />-->
+            </menu>
+        </item>
+    </group>
+    <item android:title="@string/dream_team">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="@string/about" />
+        </menu>
+    </item>
+
+</menu>
